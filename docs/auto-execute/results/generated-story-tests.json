@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "2.0",
+  "lane": "generated-story-tests",
+  "status": "PASS",
+  "commands": [
+    "npm run verify:all",
+    "npm run test:flows",
+    "npm run test:api"
+  ],
+  "results": [
+    {
+      "name": "api-smoke",
+      "type": "api",
+      "status": "PASS",
+      "evidence": "docs/auto-execute/results/api-smoke.json"
+    },
+    {
+      "name": "e2e-flow",
+      "type": "e2e",
+      "status": "PASS",
+      "evidence": "docs/auto-execute/results/e2e-flow.json"
+    },
+    {
+      "name": "functional",
+      "type": "functional",
+      "status": "PASS",
+      "evidence": "docs/auto-execute/results/unit-tests.json"
+    }
+  ],
+  "evidence": [
+    "docs/auto-execute/story-target.json",
+    "docs/auto-execute/story-test-matrix.json",
+    "docs/auto-execute/results/e2e-flow.json",
+    "docs/auto-execute/results/api-smoke.json"
+  ],
+  "blockers": [],
+  "nextActions": [],
+  "updatedAt": "2026-05-18T16:02:45"
+}

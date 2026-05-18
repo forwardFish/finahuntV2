@@ -1,0 +1,7 @@
+{
+  "lane": "requirement-section-map",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/requirement-section-map.json"
+  ]
+}

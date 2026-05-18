@@ -1,0 +1,8 @@
+{
+  "lane": "story-verifier",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/story-target.json",
+    "docs/auto-execute/story-test-matrix.json"
+  ]
+}

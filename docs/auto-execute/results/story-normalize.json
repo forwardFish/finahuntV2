@@ -1,0 +1,15 @@
+{
+  "blockers": [],
+  "commands": [],
+  "lane": "story-normalize",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/story-target.json",
+    "docs/auto-execute/epic-map.json",
+    "docs/auto-execute/sprint-plan.json"
+  ],
+  "schemaVersion": "2.0",
+  "nextActions": [],
+  "updatedAt": "2026-05-18T16:02:45",
+  "message": "Normalized acceptance artifact verified locally."
+}

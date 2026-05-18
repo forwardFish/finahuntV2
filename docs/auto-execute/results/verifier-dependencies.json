@@ -1,0 +1,100 @@
+﻿{
+    "blockers":  [
+
+                 ],
+    "commands":  [
+                     {
+                         "status":  "PASS",
+                         "command":  "npx playwright install chromium",
+                         "log":  "docs\\auto-execute\\logs\\verifier-dependencies.log"
+                     }
+                 ],
+    "lane":  "verifier-dependencies",
+    "status":  "PASS",
+    "evidence":  [
+                     "docs\\auto-execute\\results\\verifier-dependencies.json",
+                     "docs\\auto-execute\\logs\\verifier-dependencies.log"
+                 ],
+    "schemaVersion":  "2.0",
+    "nextActions":  [
+                        "Install missing dev-only verifier dependencies or configure custom verifier commands."
+                    ],
+    "updatedAt":  "2026-05-18T18:45:40",
+    "packages":  [
+                     "playwright"
+                 ],
+    "installed":  [
+
+                  ],
+    "missing":  [
+
+                ],
+    "packageDiagnostics":  [
+                               {
+                                   "package":  "playwright",
+                                   "localResolvable":  true,
+                                   "resolutionMode":  "project-local"
+                               }
+                           ],
+    "toolchainDiagnostics":  {
+                                 "node":  {
+                                              "available":  true,
+                                              "path":  "C:\\Program Files\\nodejs\\node.exe",
+                                              "version":  "v24.13.0"
+                                          },
+                                 "npm":  {
+                                             "available":  true,
+                                             "path":  "C:\\Program Files\\nodejs\\npm.ps1",
+                                             "version":  "10.9.2"
+                                         },
+                                 "npx":  {
+                                             "available":  true,
+                                             "path":  "C:\\Program Files\\nodejs\\npx.ps1",
+                                             "version":  "10.9.2"
+                                         },
+                                 "pnpm":  {
+                                              "available":  true,
+                                              "path":  "C:\\Users\\linyanhui\\AppData\\Roaming\\npm\\pnpm.ps1",
+                                              "version":  "10.14.0"
+                                          },
+                                 "yarn":  {
+                                              "available":  true,
+                                              "path":  "C:\\nvm-nodejs\\yarn.ps1",
+                                              "version":  "1.22.22"
+                                          },
+                                 "packageJson":  true,
+                                 "policy":  {
+                                                "allowInstallDevDependencies":  true,
+                                                "installPlaywrightBrowsers":  true,
+                                                "allowEphemeralNpx":  true
+                                            }
+                             },
+    "resolutionSummary":  "All verifier packages are locally resolvable.",
+    "blockerCategory":  "none",
+    "policy":  {
+                   "allowInstallDevDependencies":  true,
+                   "installPlaywrightBrowsers":  true,
+                   "allowEphemeralNpx":  true
+               },
+    "tools":  {
+                  "node":  true,
+                  "npx":  true,
+                  "playwrightPackageAvailable":  true,
+                  "pixelmatchPackageAvailable":  true,
+                  "pngjsPackageAvailable":  true,
+                  "playwrightBrowsersAvailable":  true
+              },
+    "classification":  {
+                           "uiCapturePossible":  "YES",
+                           "pixelDiffPossible":  true,
+                           "canUseEphemeralNpx":  true
+                       },
+    "warnings":  [
+
+                 ],
+    "dependencyMutation":  {
+                               "lockfileChangedByHarness":  false,
+                               "packageJsonChangedByHarness":  false,
+                               "defaultPolicy":  "Do not modify package.json or lockfiles unless allowInstallDevDependencies=true."
+                           }
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "2.0",
+  "status": "PENDING",
+  "completionStandard": [
+    "requirementsCovered",
+    "storiesCovered",
+    "uiScreenshotsCovered when visual lane is enabled",
+    "contractVerified when contract lane is enabled",
+    "e2eVerified when integration lane is enabled",
+    "secret guard and report integrity pass by default"
+  ]
+}

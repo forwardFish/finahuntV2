@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "matrix": [
+    {
+      "storyId": "STORY-01",
+      "testPoints": [
+        {
+          "id": "STORY-01-TP1",
+          "type": "functional",
+          "status": "PASS",
+          "evidence": [
+            "docs/auto-execute/results/api-smoke.json",
+            "docs/auto-execute/screenshots/home.html",
+            "docs/auto-execute/screenshots/news.html",
+            "docs/auto-execute/screenshots/themes.html",
+            "docs/auto-execute/screenshots/theme-detail.html"
+          ]
+        }
+      ]
+    },
+    {
+      "storyId": "STORY-02",
+      "testPoints": [
+        {
+          "id": "STORY-02-TP1",
+          "type": "functional",
+          "status": "PASS",
+          "evidence": [
+            "docs/auto-execute/results/miniprogram-check.json",
+            "apps/miniprogram/app.json"
+          ]
+        }
+      ]
+    },
+    {
+      "storyId": "STORY-03",
+      "testPoints": [
+        {
+          "id": "STORY-03-TP1",
+          "type": "functional",
+          "status": "PASS",
+          "evidence": [
+            "docs/auto-execute/results/api-smoke.json"
+          ]
+        }
+      ]
+    },
+    {
+      "storyId": "STORY-04",
+      "testPoints": [
+        {
+          "id": "STORY-04-TP1",
+          "type": "functional",
+          "status": "PASS",
+          "evidence": [
+            "docs/auto-execute/results/db-data-check.json",
+            "services/data/schema.sql"
+          ]
+        }
+      ]
+    },
+    {
+      "storyId": "STORY-05",
+      "testPoints": [
+        {
+          "id": "STORY-05-TP1",
+          "type": "e2e",
+          "status": "PASS",
+          "evidence": [
+            "docs/auto-execute/screenshots/admin.html",
+            "docs/auto-execute/results/e2e-data-to-display-flow.json"
+          ]
+        }
+      ]
+    },
+    {
+      "storyId": "STORY-06",
+      "testPoints": [
+        {
+          "id": "STORY-06-TP1",
+          "type": "e2e",
+          "status": "PASS",
+          "evidence": [
+            "docs/auto-execute/results/pipeline-flow.json",
+            "docs/auto-execute/results/ai-worker-schema.json"
+          ]
+        }
+      ]
+    },
+    {
+      "storyId": "STORY-07",
+      "testPoints": [
+        {
+          "id": "STORY-07-TP1",
+          "type": "functional",
+          "status": "PASS",
+          "evidence": [
+            "docs/auto-execute/results/compliance-guard.json"
+          ]
+        }
+      ]
+    },
+    {
+      "storyId": "STORY-08",
+      "testPoints": [
+        {
+          "id": "STORY-08-TP1",
+          "type": "functional",
+          "status": "PASS_WITH_LIMITATION",
+          "evidence": [
+            "docs/auto-execute/ui-target.json",
+            "docs/auto-execute/visual-diff-report.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

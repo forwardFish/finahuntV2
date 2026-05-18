@@ -1,0 +1,21 @@
+﻿{
+    "summary":  {
+                    "VALID_STORY":  0,
+                    "SUPPORTING_REQUIREMENT":  0,
+                    "ARCHITECTURE_NOTE":  0,
+                    "OUT_OF_SCOPE":  0,
+                    "DUPLICATE":  0,
+                    "ambiguous":  0,
+                    "validStories":  0,
+                    "supportingRequirements":  0,
+                    "architectureNotes":  0,
+                    "outOfScope":  0,
+                    "duplicates":  0
+                },
+    "status":  "MANUAL_REVIEW_REQUIRED",
+    "schemaVersion":  "2.0",
+    "items":  [
+
+              ],
+    "curatedAt":  "2026-05-18T15:49:14"
+}

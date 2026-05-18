@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "home minimum",
+      "pass": true
+    },
+    {
+      "name": "theme detail minimum",
+      "pass": true
+    },
+    {
+      "name": "compliance data",
+      "pass": true
+    },
+    {
+      "name": "admin counts",
+      "pass": true
+    }
+  ]
+}

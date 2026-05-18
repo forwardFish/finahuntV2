@@ -1,0 +1,175 @@
+﻿{
+  "schemaVersion": "2.0",
+  "lane": "task-09-full-verification",
+  "status": "PASS_WITH_LIMITATION",
+  "dbCounts": {
+    "sources": {
+      "actual": 4,
+      "minimum": 1,
+      "status": "PASS"
+    },
+    "rawNews": {
+      "actual": 16,
+      "minimum": 10,
+      "status": "PASS"
+    },
+    "normalizedNews": {
+      "actual": 16,
+      "minimum": 10,
+      "status": "PASS"
+    },
+    "themes": {
+      "actual": 10,
+      "minimum": 10,
+      "status": "PASS"
+    },
+    "themeTags": {
+      "actual": 24,
+      "minimum": 15,
+      "status": "PASS"
+    },
+    "themeRankings": {
+      "actual": 10,
+      "minimum": 5,
+      "status": "PASS"
+    },
+    "researchCards": {
+      "actual": 10,
+      "minimum": 3,
+      "status": "PASS"
+    },
+    "companies": {
+      "actual": 20,
+      "minimum": 10,
+      "status": "PASS"
+    },
+    "themeCompanyMatches": {
+      "actual": 20,
+      "minimum": 10,
+      "status": "PASS"
+    },
+    "evidences": {
+      "actual": 30,
+      "minimum": 10,
+      "status": "PASS"
+    },
+    "riskNotes": {
+      "actual": 20,
+      "minimum": 5,
+      "status": "PASS"
+    },
+    "observations": {
+      "actual": 20,
+      "minimum": 5,
+      "status": "PASS"
+    },
+    "publishItems": {
+      "actual": 16,
+      "minimum": 8,
+      "status": "PASS"
+    }
+  },
+  "mainChain": [
+    "raw_news",
+    "normalized_news",
+    "research_card draft",
+    "publish_items",
+    "public API",
+    "Web display",
+    "Mini-program display"
+  ],
+  "lanes": [
+    {
+      "file": "docs/auto-execute/results/db-data-check.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/api-smoke.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/pipeline-flow.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/crawler-smoke.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/ai-worker-schema.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/e2e-data-to-display-flow.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/e2e-flow.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/ui-capture.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/ui-pixel-diff.json",
+      "status": "PASS_NEEDS_MANUAL_UI_REVIEW"
+    },
+    {
+      "file": "docs/auto-execute/results/admin-screenshots.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/miniprogram-check.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/compliance-guard.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/secret-guard.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/report-integrity.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/forbidden-surface.json",
+      "status": "PASS"
+    },
+    {
+      "file": "docs/auto-execute/results/db-e2e.json",
+      "status": "PASS"
+    }
+  ],
+  "uiEvidence": {
+    "webScreenshots": 4,
+    "adminScreenshots": 4,
+    "miniProgramEvidence": "apps/miniprogram/pages/** WXML/JS/WXSS verified by miniprogram-check"
+  },
+  "blockers": [
+    "UI pixel-perfect remains manual-review-required because diff ratios exceed threshold 0.08."
+  ],
+  "evidence": [
+    "docs/auto-execute/results/db-data-check.json",
+    "docs/auto-execute/results/api-smoke.json",
+    "docs/auto-execute/results/pipeline-flow.json",
+    "docs/auto-execute/results/crawler-smoke.json",
+    "docs/auto-execute/results/ai-worker-schema.json",
+    "docs/auto-execute/results/e2e-data-to-display-flow.json",
+    "docs/auto-execute/results/e2e-flow.json",
+    "docs/auto-execute/results/ui-capture.json",
+    "docs/auto-execute/results/ui-pixel-diff.json",
+    "docs/auto-execute/results/admin-screenshots.json",
+    "docs/auto-execute/results/miniprogram-check.json",
+    "docs/auto-execute/results/compliance-guard.json",
+    "docs/auto-execute/results/secret-guard.json",
+    "docs/auto-execute/results/report-integrity.json",
+    "docs/auto-execute/results/forbidden-surface.json",
+    "docs/auto-execute/09-ui-regression-summary.md",
+    "docs/auto-execute/results/db-e2e.json"
+  ],
+  "updatedAt": "2026-05-18T18:38:22"
+}

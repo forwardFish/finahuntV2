@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "2.0",
+  "lane": "admin-screenshots",
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "admin-home",
+      "route": "/admin",
+      "status": "PASS",
+      "screenshot": "docs/auto-execute/screenshots/admin/admin-home.png",
+      "pageHealth": {
+        "title": "FinaHunt 资讯题材线索工具",
+        "textLength": 311,
+        "visibleElements": 61
+      }
+    },
+    {
+      "id": "admin-sources",
+      "route": "/admin/sources",
+      "status": "PASS",
+      "screenshot": "docs/auto-execute/screenshots/admin/admin-sources.png",
+      "pageHealth": {
+        "title": "FinaHunt 资讯题材线索工具",
+        "textLength": 311,
+        "visibleElements": 61
+      }
+    },
+    {
+      "id": "admin-raw-news",
+      "route": "/admin/raw-news",
+      "status": "PASS",
+      "screenshot": "docs/auto-execute/screenshots/admin/admin-raw-news.png",
+      "pageHealth": {
+        "title": "FinaHunt 资讯题材线索工具",
+        "textLength": 311,
+        "visibleElements": 61
+      }
+    },
+    {
+      "id": "admin-publish-items",
+      "route": "/admin/publish-items",
+      "status": "PASS",
+      "screenshot": "docs/auto-execute/screenshots/admin/admin-publish-items.png",
+      "pageHealth": {
+        "title": "FinaHunt 资讯题材线索工具",
+        "textLength": 311,
+        "visibleElements": 61
+      }
+    }
+  ],
+  "updatedAt": "2026-05-18T11:36:19.011Z"
+}

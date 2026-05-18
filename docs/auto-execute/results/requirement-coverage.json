@@ -1,0 +1,7 @@
+{
+  "lane": "requirement-coverage",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/requirement-target.json"
+  ]
+}

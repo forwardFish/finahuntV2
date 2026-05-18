@@ -1,0 +1,14 @@
+{
+  "blockers": [],
+  "commands": [],
+  "lane": "story-curation",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/story-candidates-curated.json",
+    "docs/auto-execute/story-target.json"
+  ],
+  "schemaVersion": "2.0",
+  "nextActions": [],
+  "updatedAt": "2026-05-18T16:02:45",
+  "message": "Normalized acceptance artifact verified locally."
+}

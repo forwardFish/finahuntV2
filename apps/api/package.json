@@ -1,0 +1,15 @@
+{
+  "name": "apps-api",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node ../../scripts/verify/build-check.js",
+    "lint": "node ../../scripts/verify/lint.js",
+    "typecheck": "node ../../scripts/verify/typecheck.js",
+    "test": "node ../../scripts/verify/unit-tests.js",
+    "test:api": "node ../../scripts/verify/api-smoke.js",
+    "test:health": "node ../../scripts/verify/health-check.js",
+    "test:flows": "node ../../scripts/verify/full-flow.js",
+    "test:e2e:runtime": "node ../../scripts/verify/full-flow.js"
+  }
+}

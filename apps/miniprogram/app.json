@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/news/index",
+    "pages/themes/index",
+    "pages/theme-detail/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "????????",
+    "navigationBarBackgroundColor": "#eaf4ff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6980aa",
+    "selectedColor": "#2d6cff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "??"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "??"
+      },
+      {
+        "pagePath": "pages/themes/index",
+        "text": "??"
+      }
+    ]
+  }
+}

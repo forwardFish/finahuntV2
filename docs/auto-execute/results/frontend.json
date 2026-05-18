@@ -1,0 +1,37 @@
+﻿{
+    "blockers":  [
+                     null
+                 ],
+    "commands":  [
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run lint",
+                         "log":  "docs/auto-execute/logs/frontend-lint.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run typecheck",
+                         "log":  "docs/auto-execute/logs/frontend-typecheck.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run test",
+                         "log":  "docs/auto-execute/logs/frontend-test.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run build",
+                         "log":  "docs/auto-execute/logs/frontend-build.log"
+                     }
+                 ],
+    "lane":  "frontend",
+    "status":  "PASS",
+    "evidence":  [
+                     "docs/auto-execute/logs"
+                 ],
+    "schemaVersion":  "2.0",
+    "nextActions":  [
+
+                    ],
+    "updatedAt":  "2026-05-18T15:47:46"
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "2.0",
+  "sections": [
+    {
+      "sectionId": "SEC-01",
+      "title": "Web ??/??/??/??????? API ????",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-01"
+      ],
+      "coveredByStoryIds": [
+        "STORY-01"
+      ],
+      "coverageStatus": "PASS"
+    },
+    {
+      "sectionId": "SEC-02",
+      "title": "?????/??/??/???????? 3 Tab",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-02"
+      ],
+      "coveredByStoryIds": [
+        "STORY-02"
+      ],
+      "coverageStatus": "PASS"
+    },
+    {
+      "sectionId": "SEC-03",
+      "title": "?? API ?? home/news/themes/rank/themes/:id/tags/observations/search",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-03"
+      ],
+      "coveredByStoryIds": [
+        "STORY-03"
+      ],
+      "coverageStatus": "PASS"
+    },
+    {
+      "sectionId": "SEC-04",
+      "title": "?????? seed ??????",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-04"
+      ],
+      "coveredByStoryIds": [
+        "STORY-04"
+      ],
+      "coverageStatus": "PASS"
+    },
+    {
+      "sectionId": "SEC-05",
+      "title": "?????????????",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-05"
+      ],
+      "coveredByStoryIds": [
+        "STORY-05"
+      ],
+      "coverageStatus": "PASS"
+    },
+    {
+      "sectionId": "SEC-06",
+      "title": "??/??/AI mock/????????",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-06"
+      ],
+      "coveredByStoryIds": [
+        "STORY-06"
+      ],
+      "coverageStatus": "PASS"
+    },
+    {
+      "sectionId": "SEC-07",
+      "title": "???????????????",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-07"
+      ],
+      "coveredByStoryIds": [
+        "STORY-07"
+      ],
+      "coverageStatus": "PASS"
+    },
+    {
+      "sectionId": "SEC-08",
+      "title": "UI ???????????????????",
+      "priority": "P0",
+      "sectionType": "functional",
+      "requiresImplementation": true,
+      "coveredByRequirementIds": [
+        "REQ-P0-08"
+      ],
+      "coveredByStoryIds": [
+        "STORY-08"
+      ],
+      "coverageStatus": "PASS"
+    }
+  ]
+}

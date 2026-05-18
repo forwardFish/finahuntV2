@@ -1,0 +1,3 @@
+const {writeResult,forbiddenScan,fail}=require('./lib');const repo=require('../../services/data/repository');const {scanObject,DISCLAIMER}=require('../../services/shared/compliance');
+const dataHits=scanObject(repo.loadData());const fileHits=forbiddenScan(['apps','services']);const pages=['/','/news','/themes','/themes/theme-001'].map(p=>require('../../apps/web/src/render').renderPage(p));const disclaimerMissing=pages.filter(p=>!p.includes(DISCLAIMER)).length;
+const status=(dataHits.length||fileHits.length||disclaimerMissing)?'HARD_FAIL':'PASS';writeResult('compliance-guard',{status,dataHits,fileHits,disclaimerMissing});if(status!=='PASS')fail(JSON.stringify({dataHits,fileHits,disclaimerMissing},null,2));console.log('compliance PASS');

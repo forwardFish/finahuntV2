@@ -1,0 +1,47 @@
+﻿{
+    "blockers":  [
+                     null
+                 ],
+    "commands":  [
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run build",
+                         "log":  "docs/auto-execute/logs/backend-build.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run test",
+                         "log":  "docs/auto-execute/logs/backend-test.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run test:flows",
+                         "log":  "docs/auto-execute/logs/backend-test-flows.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run test:api",
+                         "log":  "docs/auto-execute/logs/backend-test-api.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run test:health",
+                         "log":  "docs/auto-execute/logs/backend-test-health.log"
+                     },
+                     {
+                         "status":  "PASS",
+                         "command":  "npm run test:e2e:runtime",
+                         "log":  "docs/auto-execute/logs/backend-test-e2e-runtime.log"
+                     }
+                 ],
+    "lane":  "backend-test",
+    "status":  "PASS",
+    "evidence":  [
+                     "docs/auto-execute/logs"
+                 ],
+    "schemaVersion":  "2.0",
+    "nextActions":  [
+                        "Repair backend build/unit/integration/API smoke failures and rerun run-backend-test.ps1."
+                    ],
+    "updatedAt":  "2026-05-18T15:47:58"
+}

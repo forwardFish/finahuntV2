@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "data": {
+    "crawlRun": {
+      "id": "crawl-run-smoke",
+      "status": "success",
+      "inserted_count": 16,
+      "duplicate_count": 4
+    },
+    "normalized_count": 16,
+    "research_card_drafts": 2,
+    "compliance": {
+      "status": "passed",
+      "blockedTerms": []
+    }
+  }
+}

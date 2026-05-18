@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "2.0",
+  "lane": "db-e2e",
+  "status": "PASS",
+  "db": {
+    "host": "127.0.0.1",
+    "port": "5432",
+    "database": "finahuntv2_e2e",
+    "user": "postgres"
+  },
+  "commands": [
+    "DROP/CREATE local e2e database",
+    "apply services/data/schema.sql",
+    "seed from services/data/repository JSON",
+    "read count and publish/theme join checks"
+  ],
+  "counts": {
+    "sources": 4,
+    "rawNews": 16,
+    "normalizedNews": 16,
+    "themes": 10,
+    "themeTags": 24,
+    "themeRankings": 10,
+    "researchCards": 10,
+    "companies": 20,
+    "themeCompanyMatches": 20,
+    "evidences": 30,
+    "riskNotes": 20,
+    "observations": 20,
+    "publishItems": 16
+  },
+  "failures": [],
+  "joinCheck": 16,
+  "evidence": [
+    "services/data/schema.sql",
+    "docs/auto-execute/logs/db-e2e-seed.sql",
+    "docs/auto-execute/results/db-e2e.json"
+  ],
+  "blockers": [],
+  "nextActions": [],
+  "updatedAt": "2026-05-18T10:45:14.896Z"
+}

@@ -1,0 +1,10 @@
+{
+  "miniprogramRoot": "./",
+  "appid": "touristappid",
+  "projectname": "finahuntv2",
+  "compileType": "miniprogram",
+  "setting": {
+    "urlCheck": false,
+    "es6": true
+  }
+}

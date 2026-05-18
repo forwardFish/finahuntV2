@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "2.0",
+  "lane": "ui-pixel-diff",
+  "status": "PASS_NEEDS_MANUAL_UI_REVIEW",
+  "mappingPriority": [
+    "harness.yml uiMapping",
+    "UIReferences auto discovery",
+    "filename route guess",
+    "manual review"
+  ],
+  "threshold": 0.08,
+  "strict": false,
+  "comparisons": [
+    {
+      "id": "UI-WEB-HOME",
+      "status": "PASS_WITH_LIMITATION",
+      "ratio": 0.14133611611367175,
+      "diff": "docs/auto-execute/screenshots/diffs/UI-WEB-HOME-diff.png",
+      "comparedSize": "1448x1086",
+      "sizeMismatch": false,
+      "referenceSize": "1448x1086",
+      "actualSize": "1448x1086"
+    },
+    {
+      "id": "UI-WEB-NEWS",
+      "status": "PASS_WITH_LIMITATION",
+      "ratio": 0.1449519499811768,
+      "diff": "docs/auto-execute/screenshots/diffs/UI-WEB-NEWS-diff.png",
+      "comparedSize": "1448x1086",
+      "sizeMismatch": false,
+      "referenceSize": "1448x1086",
+      "actualSize": "1448x1086"
+    },
+    {
+      "id": "UI-WEB-THEMES",
+      "status": "PASS_WITH_LIMITATION",
+      "ratio": 0.10151107007315609,
+      "diff": "docs/auto-execute/screenshots/diffs/UI-WEB-THEMES-diff.png",
+      "comparedSize": "1448x1086",
+      "sizeMismatch": false,
+      "referenceSize": "1448x1086",
+      "actualSize": "1448x1086"
+    },
+    {
+      "id": "UI-WEB-THEME-DETAIL",
+      "status": "PASS_WITH_LIMITATION",
+      "ratio": 0.13580934647904522,
+      "diff": "docs/auto-execute/screenshots/diffs/UI-WEB-THEME-DETAIL-diff.png",
+      "comparedSize": "1448x1086",
+      "sizeMismatch": false,
+      "referenceSize": "1448x1086",
+      "actualSize": "1448x1086"
+    }
+  ],
+  "blockers": [],
+  "updatedAt": "2026-05-18T10:46:10.248Z"
+}

@@ -1,0 +1,13 @@
+{
+  "lane": "story-test-materialize",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/story-materialized-tests.json"
+  ],
+  "schemaVersion": "2.0",
+  "commands": [],
+  "blockers": [],
+  "nextActions": [],
+  "updatedAt": "2026-05-18T16:02:45",
+  "message": "Normalized acceptance artifact verified locally."
+}

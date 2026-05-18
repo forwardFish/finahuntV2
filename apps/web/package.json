@@ -1,0 +1,11 @@
+{
+  "name": "apps-web",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node ../../scripts/verify/build-check.js",
+    "lint": "node ../../scripts/verify/lint.js",
+    "typecheck": "node ../../scripts/verify/typecheck.js",
+    "test": "node ../../scripts/verify/unit-tests.js"
+  }
+}

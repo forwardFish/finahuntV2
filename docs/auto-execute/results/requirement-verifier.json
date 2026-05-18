@@ -1,0 +1,7 @@
+{
+  "lane": "requirement-verifier",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/requirement-target.json"
+  ]
+}

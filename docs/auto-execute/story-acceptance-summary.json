@@ -1,0 +1,247 @@
+﻿{
+    "stories":  [
+                    {
+                        "storyId":  "STORY-01",
+                        "priority":  "P0",
+                        "title":  "Web ??/??/??/??????? API ????",
+                        "status":  "PASS",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "docs/auto-execute/results/api-smoke.json",
+                                         "docs/auto-execute/screenshots/home.html",
+                                         "docs/auto-execute/screenshots/news.html",
+                                         "docs/auto-execute/screenshots/theme-detail.html",
+                                         "docs/auto-execute/screenshots/themes.html"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-01-TP1",
+                                                       "type":  "functional",
+                                                       "materializationStatus":  "BOUND",
+                                                       "command":  "npm run test:api",
+                                                       "evidenceOutput":  "docs/auto-execute/results/api-smoke.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/results/api-smoke.json",
+                                                                        "docs/auto-execute/screenshots/home.html",
+                                                                        "docs/auto-execute/screenshots/news.html",
+                                                                        "docs/auto-execute/screenshots/themes.html",
+                                                                        "docs/auto-execute/screenshots/theme-detail.html"
+                                                                    ],
+                                                       "status":  "PASS"
+                                                   }
+                    },
+                    {
+                        "storyId":  "STORY-02",
+                        "priority":  "P0",
+                        "title":  "?????/??/??/???????? 3 Tab",
+                        "status":  "PASS",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "apps/miniprogram/app.json",
+                                         "docs/auto-execute/results/miniprogram-check.json"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-02-TP1",
+                                                       "type":  "functional",
+                                                       "materializationStatus":  "BOUND",
+                                                       "command":  "npm run verify:all",
+                                                       "evidenceOutput":  "docs/auto-execute/results/miniprogram-check.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/results/miniprogram-check.json",
+                                                                        "apps/miniprogram/app.json"
+                                                                    ],
+                                                       "status":  "PASS"
+                                                   }
+                    },
+                    {
+                        "storyId":  "STORY-03",
+                        "priority":  "P0",
+                        "title":  "?? API ?? home/news/themes/rank/themes/:id/tags/observations/search",
+                        "status":  "PASS",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "docs/auto-execute/results/api-smoke.json",
+                                         "docs/auto-execute/results/api-smoke.jsondocs/auto-execute/results/api-smoke.json"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-03-TP1",
+                                                       "type":  "functional",
+                                                       "materializationStatus":  "BOUND",
+                                                       "command":  "npm run test:api",
+                                                       "evidenceOutput":  "docs/auto-execute/results/api-smoke.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/results/api-smoke.json"
+                                                                    ],
+                                                       "status":  "PASS"
+                                                   }
+                    },
+                    {
+                        "storyId":  "STORY-04",
+                        "priority":  "P0",
+                        "title":  "?????? seed ??????",
+                        "status":  "PASS",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "docs/auto-execute/results/db-data-check.json",
+                                         "services/data/schema.sql"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-04-TP1",
+                                                       "type":  "functional",
+                                                       "materializationStatus":  "BOUND",
+                                                       "command":  "npm run verify:all",
+                                                       "evidenceOutput":  "docs/auto-execute/results/db-data-check.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/results/db-data-check.json",
+                                                                        "services/data/schema.sql"
+                                                                    ],
+                                                       "status":  "PASS"
+                                                   }
+                    },
+                    {
+                        "storyId":  "STORY-05",
+                        "priority":  "P0",
+                        "title":  "?????????????",
+                        "status":  "PASS",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "docs/auto-execute/results/e2e-data-to-display-flow.json",
+                                         "docs/auto-execute/results/e2e-flow.json",
+                                         "docs/auto-execute/screenshots/admin.html"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-05-TP1",
+                                                       "type":  "e2e",
+                                                       "materializationStatus":  "BOUND",
+                                                       "command":  "npm run test:flows",
+                                                       "evidenceOutput":  "docs/auto-execute/results/e2e-flow.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/screenshots/admin.html",
+                                                                        "docs/auto-execute/results/e2e-data-to-display-flow.json"
+                                                                    ],
+                                                       "status":  "PASS"
+                                                   }
+                    },
+                    {
+                        "storyId":  "STORY-06",
+                        "priority":  "P0",
+                        "title":  "??/??/AI mock/????????",
+                        "status":  "PASS",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "docs/auto-execute/results/ai-worker-schema.json",
+                                         "docs/auto-execute/results/e2e-flow.json",
+                                         "docs/auto-execute/results/pipeline-flow.json"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-06-TP1",
+                                                       "type":  "e2e",
+                                                       "materializationStatus":  "BOUND",
+                                                       "command":  "npm run test:flows",
+                                                       "evidenceOutput":  "docs/auto-execute/results/e2e-flow.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/results/pipeline-flow.json",
+                                                                        "docs/auto-execute/results/ai-worker-schema.json"
+                                                                    ],
+                                                       "status":  "PASS"
+                                                   }
+                    },
+                    {
+                        "storyId":  "STORY-07",
+                        "priority":  "P0",
+                        "title":  "???????????????",
+                        "status":  "PASS",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "docs/auto-execute/results/compliance-guard.json",
+                                         "docs/auto-execute/results/compliance-guard.jsondocs/auto-execute/results/compliance-guard.json"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-07-TP1",
+                                                       "type":  "functional",
+                                                       "materializationStatus":  "BOUND",
+                                                       "command":  "npm run verify:all",
+                                                       "evidenceOutput":  "docs/auto-execute/results/compliance-guard.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/results/compliance-guard.json"
+                                                                    ],
+                                                       "status":  "PASS"
+                                                   }
+                    },
+                    {
+                        "storyId":  "STORY-08",
+                        "priority":  "P0",
+                        "title":  "UI ???????????????????",
+                        "status":  "PASS_WITH_LIMITATION",
+                        "testPointsPassed":  1,
+                        "testPointsTotal":  null,
+                        "evidence":  [
+                                         "docs/auto-execute/results/ui-verifier.json",
+                                         "docs/auto-execute/ui-target.json",
+                                         "docs/auto-execute/visual-diff-report.md"
+                                     ],
+                        "gaps":  [
+
+                                 ],
+                        "materializedTestPoints":  {
+                                                       "testPointId":  "STORY-08-TP1",
+                                                       "type":  "functional",
+                                                       "materializationStatus":  "BOUND_TO_UI_VERIFIER",
+                                                       "command":  "powershell -ExecutionPolicy Bypass -File scripts/acceptance/run-final-gate.ps1",
+                                                       "evidenceOutput":  "docs/auto-execute/results/ui-verifier.json",
+                                                       "evidence":  [
+                                                                        "docs/auto-execute/ui-target.json",
+                                                                        "docs/auto-execute/visual-diff-report.md"
+                                                                    ],
+                                                       "status":  "PASS_WITH_LIMITATION"
+                                                   }
+                    }
+                ],
+    "sources":  {
+                    "storyMaterializedTests":  "docs\\auto-execute\\story-materialized-tests.json",
+                    "storyTarget":  "docs\\auto-execute\\story-target.json",
+                    "storyQualityGate":  "docs\\auto-execute\\story-quality-gate.json",
+                    "storyStatus":  "docs\\auto-execute\\story-status.json"
+                },
+    "generatedAt":  "2026-05-18T16:03:54",
+    "summary":  {
+                    "hardFailStories":  0,
+                    "totalStories":  8,
+                    "passStories":  7,
+                    "p1Stories":  0,
+                    "p0Stories":  8,
+                    "p0p1PassRate":  87.5,
+                    "manualReviewRequiredStories":  0,
+                    "deferredStories":  0,
+                    "passWithLimitationStories":  1
+                },
+    "schemaVersion":  "2.0",
+    "status":  "PASS_WITH_LIMITATION"
+}

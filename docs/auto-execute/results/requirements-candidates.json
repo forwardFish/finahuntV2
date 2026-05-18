@@ -1,0 +1,13 @@
+{
+  "blockers": [],
+  "commands": [],
+  "lane": "requirements-candidates",
+  "status": "PASS",
+  "evidence": [
+    "docs/auto-execute/requirement-target.json"
+  ],
+  "schemaVersion": "2.0",
+  "nextActions": [],
+  "updatedAt": "2026-05-18T16:02:45",
+  "message": "Normalized acceptance artifact verified locally."
+}

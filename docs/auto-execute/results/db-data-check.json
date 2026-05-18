@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "counts": {
+    "sources": 4,
+    "rawNews": 16,
+    "normalizedNews": 16,
+    "themes": 10,
+    "themeTags": 24,
+    "themeRankings": 10,
+    "researchCards": 10,
+    "themeChainNodes": 50,
+    "companies": 20,
+    "themeCompanyMatches": 20,
+    "evidences": 30,
+    "riskNotes": 20,
+    "observations": 20,
+    "publishItems": 16
+  },
+  "failures": [],
+  "servingPath": "json",
+  "structuredRepository": "postgresql-schema-present"
+}

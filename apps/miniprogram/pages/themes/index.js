@@ -1,0 +1,1 @@
+Page({data:{themes:[],disclaimer:''},onLoad(){const d=require('../../utils/mock-data');this.setData({themes:d.themes,disclaimer:d.disclaimer})}})

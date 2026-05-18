@@ -1,0 +1,98 @@
+﻿{
+    "note":  "UI mapping priority is harness.yml uiMapping, UIReferences auto discovery, filename route guess, then manual review. Actual screenshots must be captured and mapped in ui-target.json before final PASS; auto-guessed mapping cannot claim pure PASS without screenshot and diff evidence.",
+    "generatedAt":  "2026-05-18T18:45:29",
+    "mappingPriority":  [
+                            "harness.yml uiMapping",
+                            "UIReferences auto discovery",
+                            "filename route guess",
+                            "manual review"
+                        ],
+    "schemaVersion":  "2.0",
+    "candidates":  [
+                       {
+                           "id":  "UI-001",
+                           "reference":  "docs\\UI\\backup\\ChatGPT Image 2026年5月17日 17_03_20 (1).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-002",
+                           "reference":  "docs\\UI\\backup\\ChatGPT Image 2026年5月17日 17_03_21 (2).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-003",
+                           "reference":  "docs\\UI\\backup\\ChatGPT Image 2026年5月17日 17_03_22 (3).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-004",
+                           "reference":  "docs\\UI\\backup\\ChatGPT Image 2026年5月17日 17_03_23 (4).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-005",
+                           "reference":  "docs\\UI\\backup\\ChatGPT Image 2026年5月17日 17_03_25 (5).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-006",
+                           "reference":  "docs\\UI\\backup\\ChatGPT Image 2026年5月17日 17_03_25 (6).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-007",
+                           "reference":  "docs\\UI\\backup\\ChatGPT Image 2026年5月17日 21_29_44.png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-008",
+                           "reference":  "docs\\UI\\ChatGPT Image 2026年5月18日 12_04_52 (1).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-009",
+                           "reference":  "docs\\UI\\ChatGPT Image 2026年5月18日 12_04_55 (2).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-010",
+                           "reference":  "docs\\UI\\ChatGPT Image 2026年5月18日 12_04_56 (3).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-011",
+                           "reference":  "docs\\UI\\ChatGPT Image 2026年5月18日 12_04_56 (4).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       },
+                       {
+                           "id":  "UI-012",
+                           "reference":  "docs\\UI\\ChatGPT Image 2026年5月18日 12_04_57 (5).png",
+                           "kind":  "png",
+                           "status":  "CANDIDATE",
+                           "mappingSource":  "UIReferences auto discovery"
+                       }
+                   ],
+    "status":  "CANDIDATE"
+}

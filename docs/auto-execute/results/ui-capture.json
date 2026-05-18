@@ -1,0 +1,203 @@
+﻿{
+    "blockers":  [
+
+                 ],
+    "commands":  [
+                     {
+                         "status":  "PASS",
+                         "command":  "node scripts/acceptance/capture-ui.mjs --project-root \"D:\\lyh\\agent\\agent-frame\\finahuntV2\" --base-url http://127.0.0.1:3000",
+                         "log":  "docs\\auto-execute\\logs\\ui-capture.log"
+                     }
+                 ],
+    "lane":  "ui-capture",
+    "status":  "PASS",
+    "evidence":  [
+                     "docs\\auto-execute\\ui-candidates.json",
+                     "docs\\auto-execute\\ui-target.json",
+                     "docs\\auto-execute\\screenshots"
+                 ],
+    "schemaVersion":  "2.0",
+    "nextActions":  [
+                        "Map references and actual screenshots into ui-target.json; do not claim UI alignment without actual visual evidence.",
+                        "UI mapping priority: harness.yml uiMapping, UIReferences auto discovery, filename guess, manual review."
+                    ],
+    "updatedAt":  "2026-05-18T18:45:52",
+    "baseUrl":  "http://127.0.0.1:3000",
+    "viewports":  [
+                      "desktop:1448x1086",
+                      "mobile:390x844"
+                  ],
+    "screenshots":  [
+                        {
+                            "id":  "UI-WEB-HOME",
+                            "route":  "/",
+                            "url":  "http://127.0.0.1:3000/",
+                            "viewport":  "desktop",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-HOME-desktop.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  1383,
+                                               "visibleElements":  231,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        },
+                        {
+                            "id":  "UI-WEB-HOME",
+                            "route":  "/",
+                            "url":  "http://127.0.0.1:3000/",
+                            "viewport":  "mobile",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-HOME-mobile.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  1383,
+                                               "visibleElements":  231,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        },
+                        {
+                            "id":  "UI-WEB-NEWS",
+                            "route":  "/news",
+                            "url":  "http://127.0.0.1:3000/news",
+                            "viewport":  "desktop",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-NEWS-desktop.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  1528,
+                                               "visibleElements":  252,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        },
+                        {
+                            "id":  "UI-WEB-NEWS",
+                            "route":  "/news",
+                            "url":  "http://127.0.0.1:3000/news",
+                            "viewport":  "mobile",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-NEWS-mobile.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  1528,
+                                               "visibleElements":  252,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        },
+                        {
+                            "id":  "UI-WEB-THEMES",
+                            "route":  "/themes",
+                            "url":  "http://127.0.0.1:3000/themes",
+                            "viewport":  "desktop",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-THEMES-desktop.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  1033,
+                                               "visibleElements":  218,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        },
+                        {
+                            "id":  "UI-WEB-THEMES",
+                            "route":  "/themes",
+                            "url":  "http://127.0.0.1:3000/themes",
+                            "viewport":  "mobile",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-THEMES-mobile.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  1033,
+                                               "visibleElements":  218,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        },
+                        {
+                            "id":  "UI-WEB-THEME-DETAIL",
+                            "route":  "/themes/theme-001",
+                            "url":  "http://127.0.0.1:3000/themes/theme-001",
+                            "viewport":  "desktop",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-THEME-DETAIL-desktop.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  798,
+                                               "visibleElements":  91,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        },
+                        {
+                            "id":  "UI-WEB-THEME-DETAIL",
+                            "route":  "/themes/theme-001",
+                            "url":  "http://127.0.0.1:3000/themes/theme-001",
+                            "viewport":  "mobile",
+                            "screenshot":  "docs/auto-execute/screenshots/UI-WEB-THEME-DETAIL-mobile.png",
+                            "status":  "PASS",
+                            "blank":  false,
+                            "runtimeErrors":  [
+
+                                              ],
+                            "consoleErrors":  [
+
+                                              ],
+                            "pageHealth":  {
+                                               "textLength":  798,
+                                               "visibleElements":  91,
+                                               "frameworkError":  false,
+                                               "title":  "FinaHunt 璧勮棰樻潗绾跨储宸ュ叿"
+                                           }
+                        }
+                    ],
+    "captureBlockers":  [
+
+                        ]
+}

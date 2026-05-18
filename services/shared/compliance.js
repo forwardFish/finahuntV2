@@ -1,0 +1,4 @@
+const DISCLAIMER='\u672c\u4ea7\u54c1\u57fa\u4e8e\u516c\u5f00\u4fe1\u606f\u6574\u7406\uff0c\u4ec5\u4f9b\u53c2\u8003\uff0c\u4e0d\u6784\u6210\u4efb\u4f55\u6295\u8d44\u5efa\u8bae\u3002\u5e02\u573a\u6709\u98ce\u9669\uff0c\u51b3\u7b56\u9700\u8c28\u614e\u3002';
+const FORBIDDEN_TERMS=['\u8350\u80a1','\u4e70\u5165','\u5356\u51fa','\u4f4e\u5438','\u4ed3\u4f4d','\u76ee\u6807\u4ef7','\u5fc5\u6da8','\u9f99\u5934\u786e\u8ba4','\u4e3b\u7ebf\u786e\u8ba4','\u6536\u76ca\u7a7a\u95f4','\u786e\u5b9a\u6027\u673a\u4f1a','\u660e\u5929\u770b\u6da8','\u7ffb\u500d\u7a7a\u95f4'];
+function scanObject(v,h=[]){if(typeof v==='string'){for(const t of FORBIDDEN_TERMS)if(v.includes(t))h.push(t)}else if(Array.isArray(v))v.forEach(x=>scanObject(x,h));else if(v&&typeof v==='object')Object.values(v).forEach(x=>scanObject(x,h));return [...new Set(h)]}
+module.exports={DISCLAIMER,FORBIDDEN_TERMS,scanObject};

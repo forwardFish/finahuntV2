@@ -1,0 +1,55 @@
+﻿project: finahuntV2
+requirements:
+  docs: [docs/finahuntv2_auto_execute_all_in_one.md, docs/FINAHUNT_MVP_DOMESTIC_MINIPROGRAM_ARCH_SPEC.md]
+ui:
+  references: [docs/UI]
+commands:
+  frontend: "npm run build"
+  backend: "npm run test:api"
+  e2e: "npm run test:flows"
+  uiBaseUrl: "http://127.0.0.1:3000"
+  uiStart: "npm run start"
+lanes:
+  frontend:
+    enabled: true
+  backend:
+    enabled: true
+  visual:
+    enabled: true
+  integration:
+    enabled: true
+  secretGuard:
+    enabled: true
+  reportIntegrity:
+    enabled: true
+verifierDependencies:
+  allowInstallDevDependencies: true
+  allowEphemeralNpx: true
+  installPlaywrightBrowsers: true
+  packages: [playwright, pixelmatch, pngjs]
+visual:
+  diffThreshold: 0.08
+uiMapping:
+  - id: UI-WEB-HOME
+    reference: "docs/UI/ChatGPT Image 2026年5月18日 12_04_52 (1).png"
+    route: "/"
+    viewport: "1448x1086"
+    required: true
+  - id: UI-WEB-NEWS
+    reference: "docs/UI/ChatGPT Image 2026年5月18日 12_04_56 (3).png"
+    route: "/news"
+    viewport: "1448x1086"
+    required: true
+  - id: UI-WEB-THEMES
+    reference: "docs/UI/ChatGPT Image 2026年5月18日 12_04_56 (4).png"
+    route: "/themes"
+    viewport: "1448x1086"
+    required: true
+  - id: UI-WEB-THEME-DETAIL
+    reference: "docs/UI/ChatGPT Image 2026年5月18日 12_04_57 (5).png"
+    route: "/themes/theme-001"
+    viewport: "1448x1086"
+    required: true
+supervisor:
+  enabled: false
+  maxWorkerRounds: 5

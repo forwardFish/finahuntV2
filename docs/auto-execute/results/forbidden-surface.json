@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2.0",
+  "lane": "forbidden-surface",
+  "status": "PASS",
+  "checks": [
+    {
+      "route": "/",
+      "hasDisclaimer": true,
+      "forbiddenHits": [],
+      "status": "PASS"
+    },
+    {
+      "route": "/news",
+      "hasDisclaimer": true,
+      "forbiddenHits": [],
+      "status": "PASS"
+    },
+    {
+      "route": "/themes",
+      "hasDisclaimer": true,
+      "forbiddenHits": [],
+      "status": "PASS"
+    },
+    {
+      "route": "/themes/theme-001",
+      "hasDisclaimer": true,
+      "forbiddenHits": [],
+      "status": "PASS"
+    }
+  ],
+  "updatedAt": "2026-05-18T11:36:15.071Z"
+}

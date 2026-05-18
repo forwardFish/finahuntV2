@@ -1,0 +1,5 @@
+
+> finahuntv2@0.1.0 start
+> node services/api/server.js
+
+FinahuntV2 listening on http://127.0.0.1:3000

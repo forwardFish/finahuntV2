@@ -1,0 +1,27 @@
+﻿# Git Status
+
+Generated: 05/18/2026 15:45:27
+
+
+## Branch
+```text
+main
+```
+
+## Status
+```text
+?? .agents/
+?? .codex/
+?? .gitignore
+?? .omx/
+?? AGENTS.md
+?? TODO.md
+?? apps/
+?? data/
+?? docs/
+?? harness.yml
+?? harness.yml.template
+?? package.json
+?? scripts/
+?? services/
+```

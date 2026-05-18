@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "commands": [
+    "node scripts/verify/full-flow.js"
+  ],
+  "evidence": [
+    "docs/auto-execute/results/e2e-data-to-display-flow.json"
+  ]
+}

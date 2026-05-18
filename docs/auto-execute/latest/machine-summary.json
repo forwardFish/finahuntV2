@@ -1,0 +1,172 @@
+﻿{
+    "repairRequired":  false,
+    "lastGapCount":  0,
+    "repairPlan":  "docs\\auto-execute\\repair-plan.md",
+    "nextAgentAction":  "docs\\auto-execute\\next-agent-action.md",
+    "finalVerdict":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+    "hardFails":  [
+
+                  ],
+    "documentedBlockers":  [
+
+                           ],
+    "manualReviewRequired":  [
+                                 {
+                                     "lane":  "compare-ui",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\compare-ui.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "final-gate-precheck",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\final-gate-precheck.json",
+                                     "blockers":  [
+                                                      null
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "story-final-report",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\story-final-report.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "task-09-full-verification",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\task-09-full-verification.json",
+                                     "blockers":  [
+                                                      "UI pixel-perfect remains manual-review-required because diff ratios exceed threshold 0.08."
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "ui-pixel-diff",
+                                     "status":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+                                     "file":  "docs\\auto-execute\\results\\ui-pixel-diff.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "ui-verifier",
+                                     "status":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+                                     "file":  "docs\\auto-execute\\results\\ui-verifier.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "compare-ui",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\compare-ui.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "final-gate-precheck",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\final-gate-precheck.json",
+                                     "blockers":  [
+                                                      null
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "story-final-report",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\story-final-report.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "task-09-full-verification",
+                                     "status":  "PASS_WITH_LIMITATION",
+                                     "file":  "docs\\auto-execute\\results\\task-09-full-verification.json",
+                                     "blockers":  [
+                                                      "UI pixel-perfect remains manual-review-required because diff ratios exceed threshold 0.08."
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "ui-pixel-diff",
+                                     "status":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+                                     "file":  "docs\\auto-execute\\results\\ui-pixel-diff.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 },
+                                 {
+                                     "lane":  "ui-verifier",
+                                     "status":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+                                     "file":  "docs\\auto-execute\\results\\ui-verifier.json",
+                                     "blockers":  [
+
+                                                  ]
+                                 }
+                             ],
+    "deferred":  [
+
+                 ],
+    "verdictClass":  "functional-pass-visual-review-required",
+    "requirementStatus":  "PASS",
+    "storyStatus":  "PASS",
+    "contractStatus":  "DISABLED",
+    "e2eStatus":  "PASS",
+    "uiStatus":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+    "secretStatus":  "PASS",
+    "reportStatus":  "PASS",
+    "uiLayerSummary":  {
+                           "requiredScreens":  4,
+                           "structureStatus":  "PASS",
+                           "screenshotStatus":  "PASS",
+                           "visualStatus":  "PASS_WITH_LIMITATION",
+                           "pixelPerfectStatus":  "MANUAL_REVIEW_REQUIRED",
+                           "pixelPerfectClaimAllowed":  false,
+                           "statusMeaning":  "Screenshots and diff evidence exist; pixel diff ratios exceed threshold, so final UI is manual-review-required rather than pure PASS."
+                       },
+    "pixelPerfectStatus":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+    "canShipLocally":  false,
+    "canClaimPixelPerfect":  false,
+    "requiresHumanReview":  true,
+    "acceptanceConfidence":  0.83,
+    "confidenceFactors":  {
+                              "requirementsCovered":  1,
+                              "storiesCovered":  1,
+                              "uiScreenshotsCovered":  1,
+                              "contractVerified":  1,
+                              "e2eVerified":  1,
+                              "manualReviewRemaining":  0
+                          },
+    "confidenceDrag":  [
+                           "manualReviewRemaining=0"
+                       ],
+    "finalGateSuggestions":  [
+                                 "Verifier lane contract-map produced result while harness.yml lane contract is disabled; consider enabling contract if this evidence is expected.",
+                                 "Verifier lane contract-verifier produced result while harness.yml lane contract is disabled; consider enabling contract if this evidence is expected.",
+                                 "Verifier lane contract produced result while harness.yml lane contract is disabled; consider enabling contract if this evidence is expected.",
+                                 "Verifier result contract-verifier.json exists, but harness.yml lane contract is disabled; enable it if this lane should gate acceptance."
+                             ],
+    "verdictClassificationReason":  "Functional verifiers passed or were limited acceptably, but visual or pixel-perfect approval still needs human review.",
+    "purePassBlockedBy":  [
+                              "UI verifier is PASS_NEEDS_MANUAL_UI_REVIEW",
+                              "Pixel-perfect visual diff is PASS_NEEDS_MANUAL_UI_REVIEW",
+                              "manual/deferred/documented blocker lanes remain",
+                              "story-final-report is PASS_WITH_LIMITATION",
+                              "ui-verifier needs manual UI review",
+                              "required UI screen UI-WEB-HOME finalUiStatus requires manual UI review",
+                              "required UI screen UI-WEB-NEWS finalUiStatus requires manual UI review",
+                              "required UI screen UI-WEB-THEMES finalUiStatus requires manual UI review",
+                              "required UI screen UI-WEB-THEME-DETAIL finalUiStatus requires manual UI review",
+                              "Required UI remains non-pure (PASS_NEEDS_MANUAL_UI_REVIEW); canShipLocally=false until fidelity gaps are repaired or explicitly reclassified.",
+                              "acceptance confidence reduced by: manualReviewRemaining=0"
+                          ],
+    "nonPurePassExplanation":  "Pure PASS is not allowed because: UI verifier is PASS_NEEDS_MANUAL_UI_REVIEW; Pixel-perfect visual diff is PASS_NEEDS_MANUAL_UI_REVIEW; manual/deferred/documented blocker lanes remain; story-final-report is PASS_WITH_LIMITATION; ui-verifier needs manual UI review; required UI screen UI-WEB-HOME finalUiStatus requires manual UI review; required UI screen UI-WEB-NEWS finalUiStatus requires manual UI review; required UI screen UI-WEB-THEMES finalUiStatus requires manual UI review; required UI screen UI-WEB-THEME-DETAIL finalUiStatus requires manual UI review; Required UI remains non-pure (PASS_NEEDS_MANUAL_UI_REVIEW); canShipLocally=false until fidelity gaps are repaired or explicitly reclassified.; acceptance confidence reduced by: manualReviewRemaining=0",
+    "schemaVersion":  "2.0",
+    "finalReport":  "docs\\auto-execute\\final-convergence-report.md",
+    "nextRecommendedAction":  "Manual UI review is required before treating this as fully accepted.",
+    "updatedAt":  "2026-05-18T19:46:46"
+}

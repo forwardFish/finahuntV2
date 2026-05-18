@@ -1,0 +1,65 @@
+﻿{
+    "blockers":  [
+                     {
+                         "id":  "GAP-UI-001",
+                         "type":  "ui",
+                         "severity":  "IN_SCOPE_GAP",
+                         "source":  "docs\\auto-execute\\ui-target.json",
+                         "description":  "UI references exist but ui-target.json has no screens.",
+                         "repairTarget":  "Map UI references to routes/screens in ui-target.json.",
+                         "status":  "OPEN"
+                     },
+                     {
+                         "id":  "GAP-STORY-TARGET-STORY-QUALITY-1",
+                         "type":  "story-quality",
+                         "severity":  "HARD_FAIL",
+                         "source":  "docs\\auto-execute\\story-target.json",
+                         "description":  "story-target.json has no normalized stories.",
+                         "repairTarget":  "Run story extraction, curation, and normalization before final gate.",
+                         "status":  "OPEN"
+                     },
+                     {
+                         "id":  "GAP-UI-001",
+                         "type":  "ui",
+                         "severity":  "IN_SCOPE_GAP",
+                         "source":  "docs\\auto-execute\\ui-target.json",
+                         "description":  "UI references exist but ui-target.json has no screens.",
+                         "repairTarget":  "Map UI references to routes/screens in ui-target.json.",
+                         "status":  "OPEN"
+                     },
+                     {
+                         "id":  "GAP-REQ-001",
+                         "type":  "requirement",
+                         "severity":  "IN_SCOPE_GAP",
+                         "source":  "docs\\auto-execute\\requirement-candidates.json",
+                         "description":  "No normalized requirements are listed in requirement-target.json",
+                         "repairTarget":  "Normalize docs/auto-execute/requirement-candidates.json into requirement-target.json with P0/P1/P2 acceptance criteria, surfaces, and evidence expectations.",
+                         "status":  "OPEN"
+                     },
+                     {
+                         "id":  "GAP-UI-001",
+                         "type":  "ui",
+                         "severity":  "IN_SCOPE_GAP",
+                         "source":  "docs\\auto-execute\\ui-target.json",
+                         "description":  "UI references exist but ui-target.json has no screens.",
+                         "repairTarget":  "Map UI references to routes/screens in ui-target.json.",
+                         "status":  "OPEN"
+                     }
+                 ],
+    "commands":  [
+
+                 ],
+    "lane":  "gap-repair",
+    "status":  "IN_SCOPE_GAP",
+    "evidence":  [
+                     "docs\\auto-execute\\08-repair-log.md",
+                     "docs\\auto-execute\\repair-plan.md",
+                     "docs\\auto-execute\\next-agent-action.md",
+                     "docs\\auto-execute\\gap-list.json"
+                 ],
+    "schemaVersion":  "2.0",
+    "nextActions":  [
+                        "Agent must read next-agent-action.md, edit implementation/evidence for the listed gaps, then rerun convergence."
+                    ],
+    "updatedAt":  "2026-05-18T15:50:00"
+}

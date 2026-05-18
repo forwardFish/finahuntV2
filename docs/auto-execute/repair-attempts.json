@@ -1,0 +1,20 @@
+﻿{
+    "GAP-STORY-TARGET-STORY-QUALITY-1":  {
+                                             "attempts":  3,
+                                             "lastError":  "story-target.json has no normalized stories.",
+                                             "status":  "RETRYING",
+                                             "updatedAt":  "2026-05-18T15:50:00"
+                                         },
+    "GAP-REQ-001":  {
+                        "attempts":  2,
+                        "lastError":  "No normalized requirements are listed in requirement-target.json",
+                        "status":  "RETRYING",
+                        "updatedAt":  "2026-05-18T15:50:00"
+                    },
+    "GAP-UI-001":  {
+                       "attempts":  6,
+                       "lastError":  "UI references exist but ui-target.json has no screens.",
+                       "status":  "RETRYING",
+                       "updatedAt":  "2026-05-18T15:50:00"
+                   }
+}

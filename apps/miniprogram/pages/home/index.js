@@ -1,0 +1,1 @@
+Page({data:{news:[],themes:[],tags:[],disclaimer:''},onLoad(){const d=require('../../utils/mock-data');this.setData({news:d.normalizedNews.slice(0,5),themes:d.themeRankings.slice(0,6).map(r=>({...r,theme:d.themes.find(t=>t.id===r.themeId)})),tags:d.themeTags.slice(0,12),disclaimer:d.disclaimer})}})

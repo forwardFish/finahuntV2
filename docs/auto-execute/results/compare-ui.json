@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "2.0",
+  "lane": "compare-ui",
+  "status": "PASS_WITH_LIMITATION",
+  "blockers": [],
+  "commands": [
+    "compare-ui.mjs --threshold 0.08 --strict false"
+  ],
+  "evidence": [
+    "docs/auto-execute/ui-target.json",
+    "docs/auto-execute/gap-list.json",
+    "docs/auto-execute/results/ui-pixel-diff.json"
+  ],
+  "nextActions": [
+    "Manual UI review required for pixel-perfect approval."
+  ],
+  "updatedAt": "2026-05-18T18:48:03"
+}

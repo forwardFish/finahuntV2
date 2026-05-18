@@ -1,0 +1,27 @@
+﻿{
+    "blockers":  [
+                     "manual/deferred/documented blocker lanes remain",
+                     "story-final-report is PASS_WITH_LIMITATION",
+                     "ui-verifier needs manual UI review",
+                     "required UI screen UI-WEB-HOME finalUiStatus requires manual UI review",
+                     "required UI screen UI-WEB-NEWS finalUiStatus requires manual UI review",
+                     "required UI screen UI-WEB-THEMES finalUiStatus requires manual UI review",
+                     "required UI screen UI-WEB-THEME-DETAIL finalUiStatus requires manual UI review",
+                     "Required UI remains non-pure (PASS_NEEDS_MANUAL_UI_REVIEW); canShipLocally=false until fidelity gaps are repaired or explicitly reclassified."
+                 ],
+    "commands":  [
+
+                 ],
+    "lane":  "final-gate",
+    "status":  "PASS_NEEDS_MANUAL_UI_REVIEW",
+    "evidence":  [
+                     "docs\\auto-execute\\final-convergence-report.md",
+                     "docs\\auto-execute\\gap-list.json",
+                     "docs\\auto-execute\\machine-summary.json"
+                 ],
+    "schemaVersion":  "2.0",
+    "nextActions":  [
+
+                    ],
+    "updatedAt":  "2026-05-18T19:46:46"
+}

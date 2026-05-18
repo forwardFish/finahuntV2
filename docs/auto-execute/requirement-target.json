@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "2.0",
+  "requirements": [
+    {
+      "id": "REQ-P0-01",
+      "priority": "P0",
+      "title": "Web ??/??/??/??????? API ????",
+      "normalized": true,
+      "status": "PASS",
+      "acceptanceCriteria": [
+        "Web ??/??/??/??????? API ????"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/results/api-smoke.json",
+        "docs/auto-execute/screenshots/home.html",
+        "docs/auto-execute/screenshots/news.html",
+        "docs/auto-execute/screenshots/themes.html",
+        "docs/auto-execute/screenshots/theme-detail.html"
+      ]
+    },
+    {
+      "id": "REQ-P0-02",
+      "priority": "P0",
+      "title": "?????/??/??/???????? 3 Tab",
+      "normalized": true,
+      "status": "PASS",
+      "acceptanceCriteria": [
+        "?????/??/??/???????? 3 Tab"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/results/miniprogram-check.json",
+        "apps/miniprogram/app.json"
+      ]
+    },
+    {
+      "id": "REQ-P0-03",
+      "priority": "P0",
+      "title": "?? API ?? home/news/themes/rank/themes/:id/tags/observations/search",
+      "normalized": true,
+      "status": "PASS",
+      "acceptanceCriteria": [
+        "?? API ?? home/news/themes/rank/themes/:id/tags/observations/search"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/results/api-smoke.json"
+      ]
+    },
+    {
+      "id": "REQ-P0-04",
+      "priority": "P0",
+      "title": "?????? seed ??????",
+      "normalized": true,
+      "status": "PASS",
+      "acceptanceCriteria": [
+        "?????? seed ??????"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/results/db-data-check.json",
+        "services/data/schema.sql"
+      ]
+    },
+    {
+      "id": "REQ-P0-05",
+      "priority": "P0",
+      "title": "?????????????",
+      "normalized": true,
+      "status": "PASS",
+      "acceptanceCriteria": [
+        "?????????????"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/screenshots/admin.html",
+        "docs/auto-execute/results/e2e-data-to-display-flow.json"
+      ]
+    },
+    {
+      "id": "REQ-P0-06",
+      "priority": "P0",
+      "title": "??/??/AI mock/????????",
+      "normalized": true,
+      "status": "PASS",
+      "acceptanceCriteria": [
+        "??/??/AI mock/????????"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/results/pipeline-flow.json",
+        "docs/auto-execute/results/ai-worker-schema.json"
+      ]
+    },
+    {
+      "id": "REQ-P0-07",
+      "priority": "P0",
+      "title": "???????????????",
+      "normalized": true,
+      "status": "PASS",
+      "acceptanceCriteria": [
+        "???????????????"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/results/compliance-guard.json"
+      ]
+    },
+    {
+      "id": "REQ-P0-08",
+      "priority": "P0",
+      "title": "UI ???????????????????",
+      "normalized": true,
+      "status": "PASS_WITH_LIMITATION",
+      "acceptanceCriteria": [
+        "UI ???????????????????"
+      ],
+      "surfaces": [
+        "web",
+        "miniprogram",
+        "api",
+        "admin"
+      ],
+      "evidence": [
+        "docs/auto-execute/ui-target.json",
+        "docs/auto-execute/visual-diff-report.md"
+      ]
+    }
+  ]
+}

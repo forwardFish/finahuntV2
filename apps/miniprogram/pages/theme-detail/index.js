@@ -1,0 +1,1 @@
+Page({data:{theme:{},nodes:[],companies:[],disclaimer:''},onLoad(){const d=require('../../utils/mock-data');const theme=d.themes[0];this.setData({theme,nodes:d.themeChainNodes.filter(n=>n.themeId===theme.id),companies:d.themeCompanyMatches.filter(m=>m.themeId===theme.id),disclaimer:d.disclaimer})}})

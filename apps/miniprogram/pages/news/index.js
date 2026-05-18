@@ -1,0 +1,1 @@
+Page({data:{news:[],disclaimer:''},onLoad(){const d=require('../../utils/mock-data');this.setData({news:d.normalizedNews,disclaimer:d.disclaimer})}})

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "path": "/health",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/home",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/news",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/news/news-001",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/themes/rank",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/themes",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/themes/theme-001",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/theme-tags",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/observations/today",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/public/search?q=???",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/admin/sources unauthorized",
+      "status": 401,
+      "ok": true
+    },
+    {
+      "path": "/api/admin/sources authorized",
+      "status": 200,
+      "ok": true
+    }
+  ]
+}
