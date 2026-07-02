@@ -12,6 +12,7 @@ function analyze(normalizedNews, db){
     evidences:db.evidences.filter(e=>e.themeId===theme.id),
     risks:db.riskNotes.filter(r=>r.themeId===theme.id),
     observation_points:db.observations.filter(o=>o.themeId===theme.id),
+    expectation_gap:{ cards:db.expectationGapCards||[], leading_signals:db.leadingSignals||[], company_transmissions:db.companyTransmissions||[], evidence_matrix:db.evidenceMatrix||[], score_evidence:db.scoreEvidence||[] },
     publish:{ review_status:'pending_review', publish_status:'draft', published_at:'' },
     compliance:{ status:'passed', blocked_terms:[], disclaimer:DISCLAIMER },
     trace:{ trace_id:'trace-mock-001', run_id:'ai-run-001', generated_at:new Date().toISOString() }

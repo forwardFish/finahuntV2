@@ -17,3 +17,122 @@ create table observations (id text primary key, theme_id text references themes(
 create table publish_items (id text primary key, target text not null, theme_id text, news_id text, status text not null, sort_order integer);
 create table ai_analysis_runs (id text primary key, provider text not null, status text not null, trace_id text not null);
 create table compliance_logs (id text primary key, status text not null, blocked_terms jsonb not null default '[]');
+
+create table expectation_gap_sources (
+  id text primary key,
+  source_name text not null,
+  source_type text not null,
+  url text not null,
+  note text,
+  priority integer not null default 100,
+  enabled boolean not null default true
+);
+
+create table expectation_gap_cards (
+  id text primary key,
+  theme_name text not null,
+  theme_id text,
+  title text not null,
+  summary text not null,
+  status text not null,
+  prediction_types jsonb not null default '[]',
+  expectation_gap_score numeric not null,
+  confidence text not null,
+  score_breakdown jsonb not null,
+  inference_chain jsonb not null default '[]',
+  conclusion text not null,
+  market_not_fully_priced_evidence jsonb not null default '[]',
+  source_item_ids jsonb not null default '[]'
+);
+
+create table leading_signals (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  type text not null,
+  signal text not null,
+  evidence_quote text not null,
+  why_early text not null,
+  source_name text not null,
+  source_url text not null,
+  publish_time text,
+  status text not null
+);
+
+create table industry_variables (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  variable_type text not null,
+  direction text not null,
+  description text not null,
+  evidence_quote text not null,
+  confidence text not null
+);
+
+create table company_transmissions (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  company_name text not null,
+  stock_code text,
+  role text not null,
+  rank integer not null,
+  chain_position text not null,
+  revenue_transmission text not null,
+  profit_elasticity text not null,
+  evidence_tier text not null,
+  evidence_strength text not null,
+  next_catalyst text not null,
+  falsification_signal text not null,
+  peer_reason text not null,
+  verification_needed text not null,
+  include_status text not null
+);
+
+create table catalyst_calendar (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  date_window text not null,
+  catalyst text not null,
+  evidence_needed text not null,
+  status text not null
+);
+
+create table exclusion_reasons (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  company_name text not null,
+  reason text not null,
+  evidence_needed text not null
+);
+
+create table falsification_signals (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  signal text not null,
+  severity text not null
+);
+
+create table evidence_matrix (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  claim text not null,
+  raw_evidence text not null,
+  source_name text not null,
+  source_url text,
+  evidence_type text not null,
+  evidence_level text not null,
+  inference text not null,
+  inference_risk text not null,
+  missing_evidence text not null,
+  confidence_impact text not null
+);
+
+create table score_evidence (
+  id text primary key,
+  card_id text references expectation_gap_cards(id),
+  dimension text not null,
+  score numeric not null,
+  weight numeric default 1,
+  evidence_ids jsonb default '[]',
+  reason text,
+  missing_data_penalty numeric default 0
+);

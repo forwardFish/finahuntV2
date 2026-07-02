@@ -1,1 +1,20 @@
-for (const f of ['../../services/data/repository','../../services/api/server','../../apps/web/src/render','../../services/ai-worker/model-router']) require(f); console.log('typecheck PASS');
+for (const f of [
+  '../../services/data/repository',
+  '../../services/api/server',
+  '../../apps/web/src/render',
+  '../../services/ai-worker/model-router',
+  '../../services/ai-worker/expectation-gap-analyzer',
+  '../../services/ai-worker/stock-analysis-analyzer',
+  '../../services/crawler/public-fetcher',
+  '../../services/crawler/jiuyangongshe-fetcher',
+  '../../services/crawler/jiuyangongshe-author',
+  '../../services/feishu/bitable-client',
+  '../content-lab/crawl',
+  '../content-lab/analyze',
+  '../content-lab/report',
+  '../content-lab/manual-review',
+  '../content-lab/verify',
+  '../jiuyangongshe-to-feishu',
+  '../jiuyangongshe-author-to-feishu',
+  '../feishu-target-probe',
+]) require(f); console.log('typecheck PASS');
